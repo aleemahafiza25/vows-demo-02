@@ -3279,3 +3279,20 @@ body.invitation-locked {
     position: relative;
     z-index: 1;
 }
+
+@media (max-width: 767px) {
+    .welcome-section,
+    .date-section,
+    .events-section,
+    .timeline-section,
+    .venue-section,
+    .countdown-section,
+    .rsvp-section,
+    .closing-section {
+        min-height: 100svh;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
