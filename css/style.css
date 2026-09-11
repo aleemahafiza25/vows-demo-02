@@ -3296,3 +3296,9 @@ body.invitation-locked {
         justify-content: center;
     }
 }
+
+@media (max-width: 767px) {
+    .envelope-panel img {
+        height: 120% !important;
+    }
+}
