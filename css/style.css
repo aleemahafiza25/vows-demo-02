@@ -3315,3 +3315,8 @@ body.invitation-locked {
         height: 116% !important;
     }
 }
+
+body.invitation-locked .hero {
+    position: relative;
+    z-index: 50;
+}
