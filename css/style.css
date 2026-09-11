@@ -3318,5 +3318,5 @@ body.invitation-locked {
 
 body.invitation-locked .hero {
     position: relative;
-    z-index: 50;
+    z-index: 60;
 }
