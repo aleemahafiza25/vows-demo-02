@@ -1526,7 +1526,7 @@ body.invitation-locked {
     position: absolute;
     top: 0;
     width: 52%;
-    height: 200%;
+    height: 100%;
     z-index: 22;
     overflow: hidden;
     backface-visibility: hidden;
@@ -1547,7 +1547,7 @@ body.invitation-locked {
     position: absolute;
 
     top: 50%;
-    height: 120%;
+    height: 116%;
     width: auto;
     max-width: none;
 
