@@ -3297,8 +3297,21 @@ body.invitation-locked {
     }
 }
 
+
+
 @media (max-width: 767px) {
+    .hero,
+    .envelope-cover,
+    .invitation-underlay {
+        height: 100dvh !important;
+        min-height: 100dvh !important;
+    }
+
+    .envelope-panel {
+        height: 100% !important;
+    }
+
     .envelope-panel img {
-        height: 150% !important;
+        height: 116% !important;
     }
 }
