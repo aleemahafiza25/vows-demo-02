@@ -190,8 +190,8 @@ const sectionObserver = new IntersectionObserver(
         });
     },
     {
-        threshold: 0.68,
-        rootMargin: "0px 0px -8% 0px"
+threshold: 0.52,
+rootMargin: "0px 0px -4% 0px"
     }
 );
 
